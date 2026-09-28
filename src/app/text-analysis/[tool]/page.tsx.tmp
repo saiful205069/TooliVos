@@ -1,0 +1,4 @@
+import React from 'react';
+export default function PlagiarismChecker() {
+  return <div>Not used directly, moving plagiarism logic back here</div>;
+}

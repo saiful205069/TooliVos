@@ -1,0 +1,43 @@
+{
+  "name": "seo-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "@pdftron/pdfnet-node": "^12.1.0",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "docx": "^9.7.2",
+    "firebase": "^12.19.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.47.0",
+    "next": "16.3.6",
+    "nookies": "^2.5.2",
+    "pdf-lib": "^1.17.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^8.0.6",
+    "@babel/preset-react": "^8.0.1",
+    "@babel/preset-typescript": "^8.0.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

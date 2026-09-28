@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="15 35 170 140">
+  <defs>
+    <linearGradient id="primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#005794" />
+      <stop offset="100%" stop-color="#003D6B" />
+    </linearGradient>
+    <linearGradient id="secondary" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0077C8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#005794" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- The V overlapping -->
+  <path d="M 20 60 L 100 170 L 180 60 L 145 60 L 100 120 L 55 60 Z" fill="url(#secondary)" />
+
+  <!-- The T -->
+  <path d="M 40 40 h 120 v 25 h -45 v 95 h -30 v -95 h -45 z" fill="url(#primary)" />
+</svg>

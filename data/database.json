@@ -1,0 +1,86 @@
+{
+  "supportTickets": [
+    {
+      "id": "4vnbfg",
+      "name": "defr",
+      "email": "jhewjfnj@gmail.com",
+      "subject": "efrew",
+      "message": "efrewd",
+      "timestamp": "2026-09-28T09:00:36.111Z",
+      "status": "unread"
+    }
+  ],
+  "userLogins": [
+    {
+      "id": "5dee6",
+      "email": "mdssaiful4@gmail.com",
+      "method": "Email",
+      "timestamp": "2026-09-28T18:03:51.063Z"
+    },
+    {
+      "id": "5uar8",
+      "email": "mdssaiful4@gmail.com",
+      "method": "Email",
+      "timestamp": "2026-09-28T18:03:41.140Z"
+    },
+    {
+      "id": "m33vii",
+      "email": "mdssaiful4@gmail.com",
+      "method": "Google",
+      "timestamp": "2026-09-28T08:59:57.584Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "hlnmk4",
+      "type": "login",
+      "title": "User Logged In",
+      "message": "mdssaiful4@gmail.com logged in via Email",
+      "timestamp": "2026-09-28T18:03:51.064Z",
+      "read": false
+    },
+    {
+      "id": "3rozml",
+      "type": "login",
+      "title": "User Logged In",
+      "message": "mdssaiful4@gmail.com logged in via Email",
+      "timestamp": "2026-09-28T18:03:41.140Z",
+      "read": false
+    },
+    {
+      "id": "gcrvh",
+      "type": "system",
+      "title": "New Newsletter Subscriber",
+      "message": "dfdsf@gmail.com has subscribed to the SEO & Webmaster Insights newsletter.",
+      "timestamp": "2026-09-28T17:50:31.879Z",
+      "read": false
+    },
+    {
+      "id": "rcdbwc",
+      "type": "support",
+      "title": "New Support Ticket",
+      "message": "defr (jhewjfnj@gmail.com) sent a message: efrew",
+      "timestamp": "2026-09-28T09:00:36.111Z",
+      "read": false
+    },
+    {
+      "id": "m63pb2",
+      "type": "login",
+      "title": "User Logged In",
+      "message": "mdssaiful4@gmail.com logged in via Google",
+      "timestamp": "2026-09-28T08:59:57.584Z",
+      "read": false
+    }
+  ],
+  "stats": {
+    "activeUsers": 4,
+    "todaysChecks": 0
+  },
+  "subscriptions": [
+    {
+      "id": "sxcuwv",
+      "email": "dfdsf@gmail.com",
+      "timestamp": "2026-09-28T17:50:31.879Z"
+    }
+  ]
+}
