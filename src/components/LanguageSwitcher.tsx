@@ -66,9 +66,7 @@ export default function LanguageSwitcher() {
         <span className="font-label-md text-label-md font-bold uppercase">
           {currentLang.code}
         </span>
-        <span
-          translate="no"
-          className="material-symbols-outlined text-[16px] notranslate"
+        <span translate="no" className="material-symbols-outlined text-[16px]  notranslate"
         >
           expand_more
         </span>

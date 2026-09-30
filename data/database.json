@@ -12,6 +12,12 @@
   ],
   "userLogins": [
     {
+      "id": "tot3gi",
+      "email": "mdssaiful4@gmail.com",
+      "method": "Email",
+      "timestamp": "2026-09-30T17:24:47.135Z"
+    },
+    {
       "id": "5dee6",
       "email": "mdssaiful4@gmail.com",
       "method": "Email",
@@ -31,6 +37,14 @@
     }
   ],
   "notifications": [
+    {
+      "id": "e586a",
+      "type": "login",
+      "title": "User Logged In",
+      "message": "mdssaiful4@gmail.com logged in via Email",
+      "timestamp": "2026-09-30T17:24:47.135Z",
+      "read": false
+    },
     {
       "id": "hlnmk4",
       "type": "login",
@@ -73,7 +87,7 @@
     }
   ],
   "stats": {
-    "activeUsers": 4,
+    "activeUsers": 5,
     "todaysChecks": 0
   },
   "subscriptions": [

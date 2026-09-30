@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <>
       <header className="fixed top-0 left-0 w-full z-50 bg-surface-card/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
-        <div className="h-16 max-w-[1240px] mx-auto px-margin-desktop flex items-center justify-between gap-space-lg">
+        <div className="h-16 max-w-[1440px] mx-auto px-margin-desktop flex items-center justify-between gap-space-lg">
           <div className="flex items-center gap-space-lg">
             <a
               className="flex items-center gap-space-sm"
@@ -73,9 +73,7 @@ export default function Header() {
                   className="flex items-center gap-2 px-1 md:px-3 py-1 md:py-1.5 rounded-full hover:bg-gray-100 transition-colors"
                 >
                   <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white">
-                    <span
-                      translate="no"
-                      className="material-symbols-outlined notranslate text-[18px]"
+                    <span translate="no" className="material-symbols-outlined  text-[18px] notranslate"
                     >
                       person
                     </span>
@@ -83,9 +81,7 @@ export default function Header() {
                   <span className="hidden md:block font-bold text-sm max-w-[100px] truncate">
                     {user.name}
                   </span>
-                  <span
-                    translate="no"
-                    className="hidden md:block material-symbols-outlined notranslate text-[16px]"
+                  <span translate="no" className="hidden md:block material-symbols-outlined  text-[16px] notranslate"
                   >
                     expand_more
                   </span>
@@ -100,9 +96,7 @@ export default function Header() {
                       href="/profile"
                       className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50 text-gray-700 text-sm"
                     >
-                      <span
-                        translate="no"
-                        className="material-symbols-outlined text-[18px] notranslate"
+                      <span translate="no" className="material-symbols-outlined text-[18px]  notranslate"
                       >
                         person
                       </span>{" "}
@@ -112,9 +106,7 @@ export default function Header() {
                       onClick={logout}
                       className="w-full flex items-center gap-2 px-4 py-2 hover:bg-red-50 text-red-600 text-sm text-left"
                     >
-                      <span
-                        translate="no"
-                        className="material-symbols-outlined text-[18px] notranslate"
+                      <span translate="no" className="material-symbols-outlined text-[18px]  notranslate"
                       >
                         logout
                       </span>{" "}
@@ -130,9 +122,7 @@ export default function Header() {
               href="/pro"
             >
               <span>Go Pro</span>
-              <span
-                translate="no"
-                className="material-symbols-outlined text-[16px] notranslate"
+              <span translate="no" className="material-symbols-outlined text-[16px]  notranslate"
               >
                 bolt
               </span>
@@ -142,9 +132,7 @@ export default function Header() {
               className="xl:hidden flex items-center justify-center text-on-surface ml-2"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
-              <span
-                translate="no"
-                className="material-symbols-outlined text-[24px] notranslate"
+              <span translate="no" className="material-symbols-outlined text-[24px]  notranslate"
               >
                 {isMobileMenuOpen ? "close" : "menu"}
               </span>
@@ -195,9 +183,7 @@ export default function Header() {
                   href="/profile"
                   className="text-center font-bold py-3 bg-surface-subtle rounded-xl text-primary w-full flex items-center justify-center gap-2"
                 >
-                  <span
-                    translate="no"
-                    className="material-symbols-outlined text-[18px] notranslate"
+                  <span translate="no" className="material-symbols-outlined text-[18px]  notranslate"
                   >
                     person
                   </span>{" "}
@@ -207,9 +193,7 @@ export default function Header() {
                   onClick={logout}
                   className="text-center font-bold py-3 bg-red-50 rounded-xl text-red-600 w-full flex items-center justify-center gap-2"
                 >
-                  <span
-                    translate="no"
-                    className="material-symbols-outlined text-[18px] notranslate"
+                  <span translate="no" className="material-symbols-outlined text-[18px]  notranslate"
                   >
                     logout
                   </span>{" "}
@@ -223,9 +207,7 @@ export default function Header() {
               className="text-center font-bold py-3 bg-primary text-on-primary rounded-xl flex items-center justify-center gap-2"
             >
               Go Pro{" "}
-              <span
-                translate="no"
-                className="material-symbols-outlined text-[18px] notranslate"
+              <span translate="no" className="material-symbols-outlined text-[18px]  notranslate"
               >
                 bolt
               </span>

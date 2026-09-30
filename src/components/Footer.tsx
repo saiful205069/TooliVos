@@ -4,7 +4,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="w-full bg-surface-card shadow-[0_-1px_8px_rgba(0,0,0,0.02)]">
-      <div className="max-w-[1240px] mx-auto px-margin-desktop pt-space-xl pb-space-lg">
+      <div className="max-w-[1440px] mx-auto px-margin-desktop pt-space-xl pb-space-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-gutter-desktop mb-space-xl">
           <div className="lg:col-span-2 flex flex-col gap-space-md">
             <div className="flex items-center gap-space-sm">

@@ -179,3 +179,39 @@ body {
 
 html { scroll-behavior: smooth; }
 
+
+@media (min-width: 1024px) {
+  :root {
+    --text-headline-xl: 72px;
+    --text-headline-xl--line-height: 80px;
+    
+    --text-headline-lg: 54px;
+    --text-headline-lg--line-height: 62px;
+    
+    --text-headline-md: 42px;
+    --text-headline-md--line-height: 50px;
+    
+    --text-headline-sm: 32px;
+    --text-headline-sm--line-height: 40px;
+    
+    --text-body-lg: 28px;
+    --text-body-lg--line-height: 38px;
+    
+    --text-body-md: 22px;
+    --text-body-md--line-height: 32px;
+    
+    --text-label-lg: 22px;
+    --text-label-lg--line-height: 30px;
+    
+    --text-label-md: 20px;
+    --text-label-md--line-height: 28px;
+  }
+}
+
+/* Fix Google Translate Font Wrappers */
+font {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  color: inherit !important;
+}
