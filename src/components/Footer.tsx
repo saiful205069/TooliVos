@@ -206,33 +206,9 @@ export default function Footer() {
                   Explore Pro Plans
                 </a>
               </li>
-              <li>
-                <a
-                  className="hover:text-primary transition-colors"
-                  data-path="all-tools"
-                  href="/api"
-                >
-                  Developer API
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-primary transition-colors"
-                  data-path="all-tools"
-                  href="/"
-                >
-                  Chrome Extension
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-primary transition-colors"
-                  data-path="all-tools"
-                  href="/"
-                >
-                  WordPress Plugin
-                </a>
-              </li>
+              
+              
+              
               <li>
                 <a
                   className="hover:text-primary transition-colors"

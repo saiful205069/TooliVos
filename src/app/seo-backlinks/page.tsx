@@ -134,24 +134,21 @@ export default function SeoDirectory() {
 
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-y-12 gap-x-6">
         {tools.map((tool, idx) => (
-          <Link
-            href={`/seo-backlinks/${tool.slug}`}
-            key={idx}
-            className="flex flex-col items-center group cursor-pointer"
-          >
-            <div className="w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-white shadow-[0_4px_20px_-4px_rgba(0,0,0,0.1)] border border-gray-50 flex items-center justify-center mb-4 transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-[0_8px_25px_-5px_rgba(0,0,0,0.15)] group-hover:border-[#0066FF]/20">
-              <span
-                translate="no"
-                className="material-symbols-outlined text-[32px] text-[#0066FF] opacity-90 notranslate"
-              >
-                {tool.icon}
-              </span>
-            </div>
-            <span className="text-center font-bold text-[#2D3748] text-sm leading-snug px-2 group-hover:text-[#0066FF] transition-colors">
-              {tool.name}
-            </span>
-          </Link>
-        ))}
+            <a
+                  href={`/seo-backlinks/${tool.slug}`}
+                  key={idx}
+                  className="group flex flex-col items-center gap-3 w-full text-center p-2 transition-all cursor-pointer"
+                >
+                  <div className="w-[80px] h-[80px] rounded-2xl bg-white flex items-center justify-center border-2 border-[#E2E8F0] shadow-sm group-hover:border-[#1961A5] group-hover:shadow-md transition-all duration-300">
+                    <span translate="no" className="material-symbols-outlined text-[36px] text-[#1961A5] notranslate font-light group-hover:scale-110 transition-transform duration-300">
+                      {tool.icon}
+                    </span>
+                  </div>
+                  <span className="font-medium text-[13px] sm:text-[14px] text-gray-800 px-1 leading-snug">
+                    {tool.name}
+                  </span>
+                </a>
+          ))}
       </div>
     </div>
   );

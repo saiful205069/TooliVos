@@ -31,25 +31,25 @@ export default function Header() {
             <nav className="hidden xl:flex items-center gap-space-xs">
               <a
                 aria-current="page"
-                className="px-space-md py-space-sm transition-colors bg-pill-tag-bg text-primary font-label-md rounded-xl"
+                className="px-space-md py-space-sm bg-pill-tag-bg text-primary font-label-md rounded-xl shadow-sm hover:shadow-md hover:-translate-y-[1px] transition-all duration-300"
                 href="/"
               >
                 All Tools
               </a>
               <a
-                className="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface rounded-xl transition-colors"
+                className="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-[#F8FAFC] hover:shadow-sm hover:-translate-y-[1px] rounded-xl transition-all duration-300"
                 href="/text-analysis"
               >
                 Text Analysis
               </a>
               <a
-                className="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface rounded-xl transition-colors"
+                className="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-[#F8FAFC] hover:shadow-sm hover:-translate-y-[1px] rounded-xl transition-all duration-300"
                 href="/seo-backlinks"
               >
                 SEO &amp; Backlinks
               </a>
               <a
-                className="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface rounded-xl transition-colors"
+                className="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-primary hover:bg-[#F8FAFC] hover:shadow-sm hover:-translate-y-[1px] rounded-xl transition-all duration-300"
                 href="/images-pdf"
               >
                 Images &amp; PDF
